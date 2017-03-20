@@ -868,3 +868,6 @@ button {
     padding:1rem;
     cursor: pointer;
 }
+.rca-column-5 .rca-blog-image{
+  background: transparent;
+}

@@ -448,6 +448,12 @@
         // document.getElementById(dataTab).className = tabClass + ' active';
         document.getElementById(dataTab).className += ' active';
       }
+      $(document).ready(function(){
+        $('iframe').load( function() {
+            $('iframe').contents().find("head")
+              .append($("<style type='text/css'>  .sy-next{right: -7% !important;;}  </style>"));
+        });
+      });
 
     </script>
 
